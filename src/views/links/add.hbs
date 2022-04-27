@@ -1,0 +1,64 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col md-4">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/links/add" method="post">
+                        <input type="text" class="form-control" name="user" placeholder="Nombre de usuario" autofocus>                        
+                    </form>
+                    <div class="form-group">
+                        <label>Introduce la contraseña</label>
+                        <input type="password" name="password" id="">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-succes btn-block">
+                            Registrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿Aún no tienes una cuenta?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <button id="btn__registrarse">Regístrarse</button>
+                    </div>
+                </div>
+
+                <!--Formulario de Login y registro-->
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Regístrarse</h2>
+                        <input type="text" placeholder="Nombre completo">
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Regístrarse</button>
+                    </form>
+                </div>
+            </div>
+
+            <h1 style="text-align: center;" id="titulo">iListener</h1>
+          
+        </main>
+
